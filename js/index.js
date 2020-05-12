@@ -9,3 +9,6 @@ function vermas(id) {
         document.getElementById("mas").style.display = "inline";
     }
 }
+
+
+

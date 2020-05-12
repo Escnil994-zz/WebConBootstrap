@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link href="img/6.JPG" type="image/x-icon" rel="shortcut icon">
+  <link href="/img/6.JPG" type="image/x-icon" rel="shortcut icon">
+  <link rel="stylesheet" href="css/what.css">
   <title>Escnil994</title>
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -27,6 +28,13 @@
 
 
 <body>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=50322973347&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
   <!---NAV-->
   <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #130633;">
     <div class="container">
@@ -107,6 +115,9 @@
               </div>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="game/index.html">Entretenimiento</a>
+          </li>
 
         </ul>
       </div>
@@ -153,7 +164,7 @@
               anyone bring you down. You have to keep going. Learning is not restricted to a place or a deadline. It
               is
               a practice, a habit, a part of your daily routine and that’s what I am looking forward to do. I will
-              surely apply these while leaning the new things during my professional and personal life. 
+              surely apply these while leaning the new things during my professional and personal life.
               <br />
               <b class="text-danger">Never stop learning because life never stops teaching</b>
               <br>
@@ -218,19 +229,19 @@
 
 
   <section class="container text-center  pb-4"">
-    <div class="row">
-      <div class="accordion" id="accordionExample">
-        <div class="card text-center">
-          <div class="card-header">
-            Read More
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Here you will be able to find more information about them</h5>
-            <p class="card-text">You should go</p>
-            <a href="info.html" class="btn btn-outline-secondary text-success">Go to</a>
-          </div>
+    <div class=" row">
+    <div class="accordion" id="accordionExample">
+      <div class="card text-center">
+        <div class="card-header">
+          Read More
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Here you will be able to find more information about them</h5>
+          <p class="card-text">You should go</p>
+          <a href="info.html" class="btn btn-outline-secondary text-success">Go to</a>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -362,6 +373,31 @@
   <!--PIE-->
 
   <footer class="mt-2">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="102932761191692"
+logged_in_greeting="Hola, ¿Cómo puedo ayudarte?"
+logged_out_greeting="Hola, ¿Cómo puedo ayudarte?">
+    </div>
     <div class="container p-3 text-white text-center">
       <p>Copyright &copy; 2020</p>
     </div>
