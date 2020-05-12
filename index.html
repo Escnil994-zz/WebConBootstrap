@@ -29,11 +29,9 @@
 
 <body>
 
+  
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <a href="https://api.whatsapp.com/send?phone=50322973347&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
-    class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
+  
   </a>
   <!---NAV-->
   <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #130633;">
@@ -376,33 +374,33 @@
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
-      window.fbAsyncInit = function() {
+      window.fbAsyncInit = function () {
         FB.init({
-          xfbml            : true,
-          version          : 'v7.0'
+          xfbml: true,
+          version: 'v7.0'
         });
       };
 
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your customer chat code -->
-    <div class="fb-customerchat"
-      attribution=setup_tool
-      page_id="102932761191692"
-logged_in_greeting="Hola, ¿Cómo puedo ayudarte?"
-logged_out_greeting="Hola, ¿Cómo puedo ayudarte?">
+    <div class="fb-customerchat" attribution=setup_tool page_id="102932761191692"
+      logged_in_greeting="Hola, ¿Cómo puedo ayudarte?" logged_out_greeting="Hola, ¿Cómo puedo ayudarte?">
     </div>
     <div class="container p-3 text-white text-center">
       <p>Copyright &copy; 2020</p>
     </div>
   </footer>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=50322973347&text=Hola, me gustaría poder contactarte."
+    class="float mr" target="_blank">
+    <i class="fa fa-whatsapp my-float "></i>
   <!--SCRIPTS-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
