@@ -41,7 +41,7 @@
 
   const ULTIMO_NIVEL = parseInt(ultimo);
 
-
+$meta.innerText = ULTIMO_NIVEL;
   class Juego {
     constructor() {
       this.repeatCont = 0;
