@@ -60,3 +60,30 @@
     text-decoration: none;
     color: blueviolet;
        }
+
+.video_y{
+  border: 3px solid blue;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video_y iframe{
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .leer_mas {
+  display:none;
+  }
+  }
+  
+  @media only screen and (max-width: 1023px) {
+  .leer_mas {
+  display:none;
+  }
+  }
